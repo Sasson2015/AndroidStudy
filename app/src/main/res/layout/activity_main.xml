@@ -5,11 +5,52 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
 
+    <Button
+        android:layout_width="40sp"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/button"
+        android:background="#ff0000" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ivDog"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/dog" />
+
+    <EditText
+        android:layout_width="90px"
+        android:layout_height="wrap_content"
+        android:hint="Type a value"
+        android:id="@+id/editText"
+        android:layout_above="@+id/ivDog"
+        android:layout_centerHorizontal="true" />
+
     <TextView
-        android:text="@string/hello_world"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:textSize="40dp"
-        android:gravity="center" />
+        android:text="PX\n מתאים את המאפיין לפיקסלים בפועל שעל המסך\n"
+        android:id="@+id/tvPX"
+        android:layout_alignBottom="@+id/ivDog"
+        android:gravity="right"
+        android:textStyle="bold" />
 
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="DP\n מתאים את המאפיין לפיקסלים ביחס לצפיפות של המסך אך לא בהכרח ביחס ישיר\n"
+        android:id="@+id/tvDP"
+        android:layout_below="@+id/tvPX"
+        android:gravity="right"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="SP\n מתאים את המאפיין לפיקסלים ביחס לצפיפות של המסך ומתחשב גם בהעדפת גודל של המשתמש מומלץ לשים ערך זה אך ורק בגודל גופן\n"
+        android:id="@+id/tvSP"
+        android:layout_below="@+id/tvDP"
+        android:gravity="right"
+        android:textStyle="bold" />
 </RelativeLayout>
