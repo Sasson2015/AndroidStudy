@@ -8,7 +8,7 @@
     <Button
         android:layout_width="40sp"
         android:layout_height="wrap_content"
-        android:text="New Button"
+        android:text="My Button"
         android:id="@+id/button"
         android:background="#ff0000" />
 
@@ -31,7 +31,7 @@
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="PX\n מתאים את המאפיין לפיקסלים בפועל שעל המסך\n"
+        android:text="PX\nמתאים את המאפיין לפיקסלים בפועל שעל המסך\n"
         android:id="@+id/tvPX"
         android:layout_alignBottom="@+id/ivDog"
         android:gravity="right"
@@ -40,7 +40,7 @@
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="DP\n מתאים את המאפיין לפיקסלים ביחס לצפיפות של המסך אך לא בהכרח ביחס ישיר\n"
+        android:text="DP\nמתאים את המאפיין לפיקסלים ביחס לצפיפות של המסך אך לא בהכרח ביחס ישיר\n"
         android:id="@+id/tvDP"
         android:layout_below="@+id/tvPX"
         android:gravity="right"
@@ -48,7 +48,7 @@
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="SP\n מתאים את המאפיין לפיקסלים ביחס לצפיפות של המסך ומתחשב גם בהעדפת גודל של המשתמש מומלץ לשים ערך זה אך ורק בגודל גופן\n"
+        android:text="SP\nמתאים את המאפיין לפיקסלים ביחס לצפיפות של המסך ומתחשב גם בהעדפת גודל של המשתמש מומלץ לשים ערך זה אך ורק בגודל גופן\n"
         android:id="@+id/tvSP"
         android:layout_below="@+id/tvDP"
         android:gravity="right"
